@@ -38,11 +38,86 @@ case 1:
     case 1:
         Precio = 900;
 
-        PrecioFinal = Precio * 0.20;
+        Descuento = Precio * 0.20;
+
+        PrecioFinal = Precio - Descuento;
+
+        
+
+        if(PrecioFinal < Saldo){
+            Restante = Saldo - PrecioFinal;
+
+            cout << "Saldo disponible = $1000" << endl
+            << "Commpra exitosa. Usted compro: Laptop Básica" << endl
+            << "Saldo Restante: " << Restante << endl;
+            
+        }
+        else{
+            Faltante = PrecioFinal - Saldo;
+
+            cout<< "Saldo disponible: 1000" << endl
+            << "No se pudo realizar la compra. " << endl
+            << "Le faltan $" << Faltante << " para poder proceder"  
+        }
+
+        break;
+
+        case 2:
+        Precio = 600;
+
+        Descuento = Precio * 0.20;
+
+        PrecioFinal = Precio - Descuento;
+
+        
+
+        if(PrecioFinal < Saldo){
+            Restante = Saldo - PrecioFinal;
+
+            cout << "Saldo disponible = $1000" << endl
+            << "Commpra exitosa. Usted compro: tablet estudiante" << endl
+            << "Saldo Restante: " << Restante << endl;
+            
+        }
+        else{
+            Faltante = PrecioFinal - Saldo;
+
+            cout<< "Saldo disponible: 1000" << endl
+            << "No se pudo realizar la compra. " << endl
+            << "Le faltan $" << Faltante << " para poder proceder"  
+        }
+
+        break;
+
+        case 3:
+        Precio = 700;
+
+        Descuento = Precio * 0.20;
+
+        PrecioFinal = Precio - Descuento;
+
+        
+
+        if(PrecioFinal < Saldo){
+            Restante = Saldo - PrecioFinal;
+
+            cout << "Saldo disponible = $1000" << endl
+            << "Commpra exitosa. Usted compro: Chromebook" << endl
+            << "Saldo Restante: " << Restante << endl;
+            
+        }
+        else{
+            Faltante = PrecioFinal - Saldo;
+
+            cout<< "Saldo disponible: 1000" << endl
+            << "No se pudo realizar la compra. " << endl
+            << "Le faltan $" << Faltante << " para poder proceder"  
+        }
 
         break;
     
     default:
+    cout << "Ingrese una opcion valida dentro del menu de productos " zz endl;
         break;
     }
     break;
