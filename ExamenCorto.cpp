@@ -46,6 +46,7 @@ int main()
             {
                 // Manejo de productos
             case 1:
+            //Se calculan los valores para mostrarselos al usuario
                 Precio = 900;
 
                 Descuento = Precio * 0.20;
@@ -67,7 +68,7 @@ int main()
                     Faltante = PrecioFinal - Saldo;
 
                     cout << "\nSaldo disponible: 1000" << endl
-                    << "descuento: $" << Descuento << endl
+                         << "descuento: $" << Descuento << endl
                          << "No se pudo realizar la compra. " << endl
                          << "Le faltan $" << Faltante << " para poder proceder";
                 }
@@ -75,6 +76,7 @@ int main()
                 break;
 
             case 2:
+            //Se calculan los valores para mostrarselos al usuario
                 Precio = 600;
 
                 Descuento = Precio * 0.20;
@@ -96,7 +98,7 @@ int main()
                     Faltante = PrecioFinal - Saldo;
 
                     cout << "\nSaldo disponible: 1000" << endl
-                    << "descuento: $" << Descuento << endl
+                         << "descuento: $" << Descuento << endl
                          << "No se pudo realizar la compra. " << endl
                          << "Le faltan $" << Faltante << " para poder proceder";
                 }
@@ -104,6 +106,7 @@ int main()
                 break;
 
             case 3:
+            //Se calculan los valores para mostrarselos al usuario
                 Precio = 700;
 
                 Descuento = Precio * 0.20;
@@ -125,7 +128,7 @@ int main()
                     Faltante = PrecioFinal - Saldo;
 
                     cout << "\nSaldo disponible: 1000" << endl
-                    << "descuento: $" << Descuento << endl
+                         << "descuento: $" << Descuento << endl
                          << "No se pudo realizar la compra. " << endl
                          << "Le faltan $" << Faltante << " para poder proceder";
                 }
@@ -153,6 +156,7 @@ int main()
             switch (Producto)
             {
             case 1:
+            //Se calculan los valores para mostrarselos al usuario
                 Precio = 1500;
 
                 Descuento = Precio * 0.10;
@@ -174,7 +178,7 @@ int main()
                     Faltante = PrecioFinal - Saldo;
 
                     cout << "\nSaldo disponible: 1000" << endl
-                    << "descuento: $" << Descuento << endl
+                         << "descuento: $" << Descuento << endl
                          << "No se pudo realizar la compra. " << endl
                          << "Le faltan $" << Faltante << " para poder proceder";
                 }
@@ -182,6 +186,7 @@ int main()
                 break;
 
             case 2:
+            //Se calculan los valores para mostrarselos al usuario
                 Precio = 1200;
 
                 Descuento = Precio * 0.10;
@@ -203,7 +208,7 @@ int main()
                     Faltante = PrecioFinal - Saldo;
 
                     cout << "\nSaldo disponible: 1000" << endl
-                    << "descuento: $" << Descuento << endl
+                         << "descuento: $" << Descuento << endl
                          << "No se pudo realizar la compra. " << endl
                          << "Le faltan $" << Faltante << " para poder proceder";
                 }
@@ -211,6 +216,7 @@ int main()
                 break;
 
             case 3:
+            //Se calculan los valores para mostrarselos al usuario
                 Precio = 2000;
 
                 Descuento = Precio * 0.10;
@@ -232,7 +238,7 @@ int main()
                     Faltante = PrecioFinal - Saldo;
 
                     cout << "\nSaldo disponible: 1000" << endl
-                    << "descuento: $" << Descuento << endl
+                         << "descuento: $" << Descuento << endl
                          << "No se pudo realizar la compra. " << endl
                          << "Le faltan $" << Faltante << " para poder proceder";
                 }
@@ -260,7 +266,7 @@ int main()
                  << "1. Laptop Avanzada: $1500" << endl
                  << "2. Tablet Pro: $1200" << endl
                  << "3. Estación de Trabajo: $2000" << endl;
-                 break;
+            break;
 
             // Si ingresa un valor fuera del menu se le muestra este mensaje
         default:
