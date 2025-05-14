@@ -67,7 +67,7 @@ int main()
                     Faltante = PrecioFinal - Saldo;
 
                     cout << "\nSaldo disponible: 1000" << endl
-                         << "descuento: $" << Descuento << endl
+                    << "descuento: $" << Descuento << endl
                          << "No se pudo realizar la compra. " << endl
                          << "Le faltan $" << Faltante << " para poder proceder";
                 }
@@ -96,7 +96,7 @@ int main()
                     Faltante = PrecioFinal - Saldo;
 
                     cout << "\nSaldo disponible: 1000" << endl
-                         << "descuento: $" << Descuento << endl
+                    << "descuento: $" << Descuento << endl
                          << "No se pudo realizar la compra. " << endl
                          << "Le faltan $" << Faltante << " para poder proceder";
                 }
@@ -125,7 +125,7 @@ int main()
                     Faltante = PrecioFinal - Saldo;
 
                     cout << "\nSaldo disponible: 1000" << endl
-                         << "descuento: $" << Descuento << endl
+                    << "descuento: $" << Descuento << endl
                          << "No se pudo realizar la compra. " << endl
                          << "Le faltan $" << Faltante << " para poder proceder";
                 }
@@ -174,7 +174,7 @@ int main()
                     Faltante = PrecioFinal - Saldo;
 
                     cout << "\nSaldo disponible: 1000" << endl
-                         << "descuento: $" << Descuento << endl
+                    << "descuento: $" << Descuento << endl
                          << "No se pudo realizar la compra. " << endl
                          << "Le faltan $" << Faltante << " para poder proceder";
                 }
@@ -203,7 +203,7 @@ int main()
                     Faltante = PrecioFinal - Saldo;
 
                     cout << "\nSaldo disponible: 1000" << endl
-                         << "descuento: $" << Descuento << endl
+                    << "descuento: $" << Descuento << endl
                          << "No se pudo realizar la compra. " << endl
                          << "Le faltan $" << Faltante << " para poder proceder";
                 }
@@ -232,7 +232,7 @@ int main()
                     Faltante = PrecioFinal - Saldo;
 
                     cout << "\nSaldo disponible: 1000" << endl
-                         << "descuento: $" << Descuento << endl
+                    << "descuento: $" << Descuento << endl
                          << "No se pudo realizar la compra. " << endl
                          << "Le faltan $" << Faltante << " para poder proceder";
                 }
@@ -260,6 +260,7 @@ int main()
                  << "1. Laptop Avanzada: $1500" << endl
                  << "2. Tablet Pro: $1200" << endl
                  << "3. Estación de Trabajo: $2000" << endl;
+                 break;
 
             // Si ingresa un valor fuera del menu se le muestra este mensaje
         default:
